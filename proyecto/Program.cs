@@ -135,7 +135,7 @@ public class croud
             tmp.setNombre(nombre);
             tmp.setNumero(telefono);
             tmp.setCorreo(correo);
-            
+
             personas.Add(tmp);
 
             return true;
@@ -146,7 +146,7 @@ public class croud
     public void BuscarYImprimir(string nombre)
     {
         persona resultado = buscar(nombre);
-    
+
         if (resultado != null)
         {
             Console.WriteLine("Persona encontrada: " + resultado.ToString());
