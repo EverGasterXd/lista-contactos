@@ -1,0 +1,14 @@
+C:\Users\garci\Downloads\telefono creo\proyecto\bin\Debug\net8.0\proyecto.exe
+C:\Users\garci\Downloads\telefono creo\proyecto\bin\Debug\net8.0\proyecto.deps.json
+C:\Users\garci\Downloads\telefono creo\proyecto\bin\Debug\net8.0\proyecto.runtimeconfig.json
+C:\Users\garci\Downloads\telefono creo\proyecto\bin\Debug\net8.0\proyecto.dll
+C:\Users\garci\Downloads\telefono creo\proyecto\bin\Debug\net8.0\proyecto.pdb
+C:\Users\garci\Downloads\telefono creo\proyecto\obj\Debug\net8.0\proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\garci\Downloads\telefono creo\proyecto\obj\Debug\net8.0\proyecto.AssemblyInfoInputs.cache
+C:\Users\garci\Downloads\telefono creo\proyecto\obj\Debug\net8.0\proyecto.AssemblyInfo.cs
+C:\Users\garci\Downloads\telefono creo\proyecto\obj\Debug\net8.0\proyecto.csproj.CoreCompileInputs.cache
+C:\Users\garci\Downloads\telefono creo\proyecto\obj\Debug\net8.0\proyecto.dll
+C:\Users\garci\Downloads\telefono creo\proyecto\obj\Debug\net8.0\refint\proyecto.dll
+C:\Users\garci\Downloads\telefono creo\proyecto\obj\Debug\net8.0\proyecto.pdb
+C:\Users\garci\Downloads\telefono creo\proyecto\obj\Debug\net8.0\proyecto.genruntimeconfig.cache
+C:\Users\garci\Downloads\telefono creo\proyecto\obj\Debug\net8.0\ref\proyecto.dll
