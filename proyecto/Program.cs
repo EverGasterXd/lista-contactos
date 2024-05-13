@@ -156,6 +156,14 @@ public class croud
             Console.WriteLine("Persona no encontrada");
         }
     }
+    public void BuscarTodos()
+    {
+        persona resultado;
+        foreach (persona p in personas)
+        {
+                Console.WriteLine(p.ToString());
+        }
+    }
 }
 
 public class program
@@ -169,10 +177,12 @@ public class program
             do
             {
                 Console.WriteLine("1.- agregar");
-                Console.WriteLine("2.- eliminar");
-                Console.WriteLine("3.- actualizar");
-                Console.WriteLine("4.- salir");
-                Console.WriteLine("5.- mostrar");
+                Console.WriteLine("2.- buscar");
+                Console.WriteLine("3.- eliminar");
+                Console.WriteLine("4.- actualizar");
+                Console.WriteLine("5.- mostrar todos");
+                Console.WriteLine("6.- salir");
+                
                 op = int.Parse(Console.ReadLine());
                 switch (op)
                 {
@@ -192,6 +202,13 @@ public class program
                         Console.Clear();
                         break;
                     case 2:
+                        Console.WriteLine("ingresa el nombre de la persona que quieres buscar");
+                        string nombre4 = Console.ReadLine();
+                        c.BuscarYImprimir(nombre4);
+                        Console.ReadKey();
+                        Console.Clear();
+                        break;
+                    case 3:
                         string nombre2;
                         Console.WriteLine("ingrese el nombre");
                         nombre2 = Console.ReadLine();
@@ -206,7 +223,7 @@ public class program
                         Console.ReadKey();
                         Console.Clear();
                         break;
-                    case 3:
+                    case 4:
                         string nombre3;
                         Console.WriteLine("ingrese el nombre");
                         nombre3 = Console.ReadLine();
@@ -221,24 +238,23 @@ public class program
                         Console.ReadKey();
                         Console.Clear();
                         break;
-                    case 4:
+                    case 5:
+                        c.BuscarTodos();
+                        Console.ReadKey();
+                        Console.Clear();
+                        break;
+                    case 6:
                         Console.WriteLine("adios");
                         Console.ReadKey();
-                        Console.Clear();
-                        break;
-                    case 5:
-                        Console.WriteLine("ingresa el nombre de la persona que quieres buscar");
-                        string nombre4 = Console.ReadLine();
-                        c.BuscarYImprimir(nombre4);
-                        Console.ReadKey();
-                        Console.Clear();
-                        break;
+                        Console.Clear();                    
+                    break;
+
                     default:
                         Console.WriteLine("opcion no valida");
                         Console.Clear();
                         break;
                 }
-            } while (op != 4);
+            } while (op != 6);
         }
         catch (Exception e)
         {
